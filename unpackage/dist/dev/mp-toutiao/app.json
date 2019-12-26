@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/doutui",
     "pages/index/data",
     "pages/index/hehuoren",
     "pages/index/index",

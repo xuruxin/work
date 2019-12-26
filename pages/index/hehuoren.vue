@@ -1,10 +1,11 @@
 <template>
 	<view>
-		<view class="userbox">
-			<!-- ‘联合创始人 -->
+		<view class="kong"></view>
+		<!-- <view class="userbox">
 			<image src="../../static/index/lhcsr.png" mode="widthFix" class="lhcsr_icon"></image>
-			
-			<view class="box">
+			<view class="boxbox">
+				<view class="box">
+				
 				<view class="nickname">
 					沉敛丶
 				</view>
@@ -17,9 +18,28 @@
 				</view>
 			</view>
 			<!-- 头像 -->
-			<image src="/static/index/stara.png" class="avatar" mode=""></image>
+			<!-- <image src="/static/index/stara.png" class="avatar" mode=""></image></view>
+			
+		</view> --> -->
+<!-- -------------------------------------------------------------------------------- -->
+		<view class="boxtop">
+			<view class="boxleft">
+				<image src="../../static/index/starb.png" class="nameImg"></image>
+				<view class="box_con">
+					<view class="name">
+					南歌哦！
+				</view>
+				<view class="phone">
+					<text class="ph_text1">手机:</text>
+					<text class="ph_text2">18333015185</text>
+				</view>
+				<view class="star"></view>
+				</view>
+				
+			</view>
+			<image src="../../static/index/lhcsr.png" class="lianhe"></image>
 		</view>
-
+<!-- -------------------------------------------------------------------------------- -->
 		<view class="tab_title">
 			今日总收益
 		</view>
@@ -137,7 +157,7 @@
 		<view class="xiangxiImg">
 			<image src="../../static/index/down.png"></image>
 		</view>
-		
+
 		<view class="teambox">
 			<view class="tab">
 				<view class="number">
@@ -232,7 +252,9 @@
 	page {
 		background: #15172E;
 	}
-
+	/* .boxbox{
+		margin-top: 88upx;
+	}
 	.qiun-charts {
 		width: 690upx;
 		height: 596upx;
@@ -247,18 +269,16 @@
 		height: 596upx;
 		background-color: #1F2635;
 	}
-
 	.userbox .lhcsr_icon {
 		width: 298upx;
 		height: 295upx;
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 0upx;
+		right: 0upx;
 	}
-
 	.userbox {
 		width: 100%;
-		margin-top: 90upx;
+		overflow: hidden;
 	}
 
 	.userbox .star {
@@ -303,6 +323,101 @@
 	.userbox .starbox {
 		margin-top: 6upx;
 	}
+ */
+	/* .kong{
+		width: 200upx;
+		height: 200upx;
+	} */
+	.boxtop{
+		height: 250upx;
+		position: relative;
+	}
+	.boxleft{
+		position: absolute;
+		top: 92upx;
+	}
+	.nameImg{
+		width: 128upx;
+		height: 128upx;
+		margin-left: 30upx;
+		display: block;
+		border-radius: 50%;
+	}
+	.lianhe{
+		width: 295upx;
+		height: 295upx;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.box_con{
+		margin-left: 187upx;
+		position: absolute;
+		top: 0;
+		left: 0upx;
+	}
+	.name{
+		width:208upx;
+		height:52upx;
+		font-size:52upx;
+		font-family:PingFangSC-Semibold,PingFang SC;
+		font-weight:600;
+		color:rgba(255,255,255,1);
+		line-height:52upx;
+		white-space: nowrap;
+		overflow: hidden;
+		/*设置隐藏*/
+		text-overflow: ellipsis;
+		/*设置隐藏部分为省略号*/
+	}
+	.phone{
+		width: 400upx;
+		margin-top: 8upx;
+	}
+	.ph_text1{
+		font-size:24upx;
+		font-family:PingFangSC-Regular,PingFang SC;
+		font-weight:400;
+		color:rgba(250,251,251,1);
+		line-height:33upx;
+	}
+	.ph_text2{
+		font-size:28upx;
+		font-family:DIN-Medium,DIN;
+		font-weight:500;
+		color:rgba(250,251,251,1);
+		line-height:28upx;
+	}
+	.star{
+		width: 180upx;
+		height: 32upx;
+		margin-top: 2upx;
+		background-color: #1CBBB4;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	.tab_title {
 		font-size: 48upx;
@@ -488,8 +603,9 @@
 		margin-top: 120upx;
 		margin-left: 245upx;
 	}
-	.kefubtn button{
-		background: rgba(0,0,0,0);
+
+	.kefubtn button {
+		background: rgba(0, 0, 0, 0);
 		line-height: 80upx;
 		text-align: left;
 		font-size: 28upx;
@@ -500,6 +616,7 @@
 		flex-direction: row;
 		margin-left: -25upx;
 	}
+
 	.kefubtn image {
 		width: 38upx;
 		height: 38upx;
@@ -620,25 +737,28 @@
 		margin-left: 30upx;
 		text-align: left;
 	}
-	.xiangxi{
-		font-size:28upx;
-		font-family:PingFangSC-Regular,PingFang SC;
-		font-weight:400;
-		color:rgba(139,139,158,1);
-		line-height:28upx;
+
+	.xiangxi {
+		font-size: 28upx;
+		font-family: PingFangSC-Regular, PingFang SC;
+		font-weight: 400;
+		color: rgba(139, 139, 158, 1);
+		line-height: 28upx;
 		float: right;
 		margin-right: 38upx;
 		margin-top: -30upx;
-		background: rgba(0,0,0,0);
+		background: rgba(0, 0, 0, 0);
 	}
-	.xiangxiImg{
+
+	.xiangxiImg {
 		width: 28upx;
 		height: 28upx;
 		float: right;
 		margin-right: 30upx;
 		margin-top: -30upx;
 	}
-	.xiangxiImg image{
+
+	.xiangxiImg image {
 		width: 100%;
 		height: 100%;
 	}
