@@ -1,0 +1,157 @@
+
+page {
+	background: #FFFFFF;
+}
+.msg1,
+.msg2,
+.msg3 {
+	width: 100%;
+	text-align: center;
+}
+.msg1 {
+	height: 52rpx;
+	font-size: 52rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(62, 62, 80, 1);
+	line-height: 52rpx;
+	margin-top: 60rpx;
+}
+.msg1 text {
+	font-size: 58rpx;
+	color: #FD5450;
+}
+.msg2 {
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFangSC;
+	font-weight: 400;
+	color: rgba(62, 62, 80, 1);
+	line-height: 28rpx;
+	margin-top: 20rpx;
+}
+.msg3 {
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFangSC;
+	font-weight: 400;
+	color: rgba(62, 62, 80, 1);
+	line-height: 28rpx;
+	margin-top: 20rpx;
+}
+.msg3 text {
+	background: #FD5450;
+	color: #FFFFFF;
+	padding: 2rpx 6rpx;
+	margin: 0 10rpx;
+	border-radius: 6rpx;
+}
+.sharebtn {
+	width: 670rpx;
+	height: 98rpx;
+	line-height: 98rpx;
+	background: rgba(253, 84, 80, 1);
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	margin-top: 44rpx;
+}
+.grayline {
+	width: 750rpx;
+	height: 20rpx;
+	background: rgba(0, 0, 0, 0.02);
+	margin-top: 40rpx;
+}
+.avatarBox {
+	text-align: center;
+	margin-top: 58rpx;
+}
+.avatarBox .avatar {
+	width: 112rpx;
+	height: 112rpx;
+	display: inline-block;
+	text-align: center;
+	margin: 0 29rpx;
+}
+.avatarBox .noavatar {
+	border: none !important;
+}
+.avatarBox .avatar .txt {
+	width: 72rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+	background: rgba(253, 84, 80, 1);
+	border-radius: 16px;
+	position: absolute;
+	margin-top: -20rpx;
+	font-size: 22rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(247, 243, 242, 1);
+	margin-left: 20rpx;
+}
+.avatarBox .avatar image {
+	width: 112rpx;
+	height: 112rpx;
+	border-radius: 50%;
+	border: 3rpx solid rgba(253, 84, 80, 1);
+}
+._title .more {
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(107, 115, 122, 1);
+}
+._title .more .txt {
+	width: 550rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: right;
+}
+._title .more .shape {
+	margin-top: 28rpx;
+}
+._title .more .shape,
+._title .more .txt {
+	float: left;
+}
+._title .title {
+	color: rgba(134, 139, 154, 1);
+}
+
+/* 猜你喜欢标题 */
+.c_title {
+	height: 45rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFangSC;
+	font-weight: 400;
+	color: rgba(253, 84, 80, 1);
+	line-height: 45rpx;
+	text-align: center;
+	margin-top: 60rpx;
+}
+.c_title>image:nth-child(1) {
+	width: 43rpx;
+	height: 28rpx;
+	margin-right: 10rpx;
+}
+.c_title>image:nth-child(3) {
+	width: 38rpx;
+	height: 28rpx;
+	margin-left: 8rpx;
+}
+.c_title text {
+	position: relative;
+	top: -4rpx;
+}
+.lines {
+	height: 40rpx;
+	border-bottom: 1rpx solid rgba(244, 244, 244, 1);
+}
+
+/* 猜你喜欢标题 */
+

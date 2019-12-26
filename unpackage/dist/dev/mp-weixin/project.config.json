@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx568d83d5cee75d50",
+	"projectname": "三人拼团",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"name": "个人中心",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/user/index"
+				},
+				{
+					"name": "商品详情",
+					"query": "goods_id=7448",
+					"id": 1,
+					"pathName": "pages/goods/index"
+				},
+				{
+					"name": "测试页面",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/index/test"
+				},
+				{
+					"name": "结算",
+					"query": "goods_id=7448",
+					"id": 3,
+					"pathName": "pages/jiesuan/jiesuan"
+				},
+				{
+					"name": "首页",
+					"query": "jump=pages/jointeam/jointeam&jumpData1=pintuan_home_id&jumpData2=400&jumpData3=action&jumpData4=other",
+					"id": 4,
+					"pathName": "pages/index/index"
+				}
+			]
+		}
+	}
+}

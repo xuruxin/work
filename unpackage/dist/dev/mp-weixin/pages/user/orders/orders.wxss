@@ -1,0 +1,213 @@
+
+page {
+		background: #FFFFFF;
+}
+
+	/* view{
+	border:1px solid red;
+} */
+.orderbtn {
+		color: #FD5450;
+}
+.header_hader {
+		background-color: #fff;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 750rpx;
+		position: fixed;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+		z-index: 10;
+}
+.header_hader_1 {
+		line-height: 85rpx;
+}
+.quan_b1 {
+		padding-top: 102rpx;
+		width: 690rpx;
+		margin-left: 30rpx;
+}
+.lina {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20rpx;
+		width: 32rpx;
+		height: 6rpx;
+		background: #FD5450;
+		border-radius: 2rpx;
+}
+.activa {
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		color: #FD5450;
+}
+.quanb_header-top {
+		margin-top: 28rpx;
+}
+.quanb_header {
+		height: 34rpx;
+		font-size: 24rpx;
+		font-family: DIN-Regular;
+		font-weight: 500;
+		color: rgba(51, 51, 61, 1);
+		line-height: 34rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+.quanb_header>view:first-child {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+.quanb_header>view:first-child>view:last-child {
+		font-size: 28rpx;
+		margin-left: 8rpx;
+}
+.quanb_header>view:nth-child(2) {
+		font-size: 24rpx;
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		color: #FD5450;
+}
+.quanb_header1-top {
+		width: 100%;
+		height: 180rpx;
+		margin-top: 27rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin-bottom: 30rpx;
+}
+.quanb_header1-top .newpeopleicon {
+		width: 66rpx;
+		height: 66rpx;
+		position: absolute;
+		margin-left: 114rpx;
+}
+.quanb_header1-top_image {
+		width: 180rpx;
+		height: 180rpx;
+}
+.quanb_header1-top_image image {
+		width: 180rpx;
+		height: 180rpx;
+}
+.quanb_header1-top_naYi {
+		height: 180rpx;
+		width: 100%;
+		padding-left: 20rpx;
+}
+.quanb_header1-top_text {
+		width: 97%;
+		height: 84rpx;
+		font-size: 30rpx;
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		color: rgba(51, 51, 61, 1);
+		line-height: 42rpx;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+}
+.quanb_header1-top_text2 {
+		width: 98%;
+		height: 33rpx;
+		font-size: 24rpx;
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		color: #FD5450;
+		line-height: 33rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 20rpx;
+}
+.quanb_header1-top_text2>view:first-child {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+}
+.quanb_header1-top_text2>view:nth-child(2) {
+		width: 72rpx;
+		height: 33rpx;
+		font-size: 24rpx;
+		font-family: PingFangSC-Regular;
+		font-weight: 500;
+		color: rgba(153, 153, 157, 1);
+		line-height: 33rpx;
+}
+.btn-btn {
+		height: 88rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+}
+.btn-btn view {
+		margin-top: 18rpx;
+		height: 52rpx;
+		border: 1px solid #000;
+		margin-right: 20rpx;
+		padding: 0 30rpx;
+		font-size: 24rpx;
+		font-family: PingFangSC-Regular;
+		font-weight: 400;
+		color: #FD5450;
+		line-height: 52rpx;
+		text-align: center;
+		border-radius: 26px;
+}
+.btn-btn view:last-child {
+		margin-right: 0;
+}
+.btn-btn view:first-child {
+		border: 2rpx solid #FD5450;
+		color: #FD5450;
+}
+.btn-btn view:nth-child(2) {
+		border: 2rpx solid rgba(249, 119, 22, 1);
+		color: rgba(249, 119, 22, 1);
+}
+.btn-btn view:nth-child(3) {
+		color: rgba(255, 255, 255, 1);
+		background: -webkit-gradient(linear, right top, left top, from(rgba(249, 119, 22, 1)), to(rgba(255, 154, 3, 1)));
+		background: -o-linear-gradient(right, rgba(249, 119, 22, 1) 0%, rgba(255, 154, 3, 1) 100%);
+		background: linear-gradient(270deg, rgba(249, 119, 22, 1) 0%, rgba(255, 154, 3, 1) 100%);
+		border: 2rpx solid rgba(255, 154, 3, 1);
+}
+.newpeoplebtn {
+		background: -webkit-linear-gradient(90deg, rgba(255, 100, 105, 1) 0%, rgba(255, 38, 78, 1) 100%) !important;
+		-webkit-box-shadow: 0rpx 4rpx 18rpx 0rpx rgba(210, 27, 14, 0.32) !important;
+		        box-shadow: 0rpx 4rpx 18rpx 0rpx rgba(210, 27, 14, 0.32) !important;
+		border: none !important;
+		font-size: 24rpx !important;
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 1) !important;
+}
+.bg_a {
+		width: 100%;
+		height: 20rpx;
+		background: rgba(0, 0, 0, 0.02);
+}
+

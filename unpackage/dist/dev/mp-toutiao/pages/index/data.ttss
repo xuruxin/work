@@ -1,0 +1,250 @@
+
+page {
+	background: #15172E;
+}
+.content {
+	background: #15172E;
+}
+.searchs {
+	height: 80rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	margin-top: 40rpx;
+}
+.uni-input {
+	height: 80rpx;
+	background: rgba(31, 38, 53, 1);
+	border-radius: 4px;
+	color: #fff;
+}
+.search-bg {
+	height: 80rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	margin-top: 41rpx;
+	background: rgba(31, 38, 53, 1);
+}
+.search-bg-image {
+	width: 28rpx;
+	height: 28rpx;
+}
+.search-bg-title {
+	color: #5B6B90;
+	font-size: 28rpx;
+}
+.members {
+	height: 104rpx;
+	margin-top: 10rpx;
+	line-height: 104rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #181C30;
+}
+.members-list {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+	color: #99999D;
+	font-size: 30rpx;
+}
+.select.active {
+	color: #FFFFFF;
+}
+.select.active .selectitem {
+	width: 32rpx;
+	border-top: 6rpx solid #FFFFFF;
+	margin-top: -28rpx;
+	margin-left: 109rpx;
+	border-radius: 1rpx;
+}
+.users {
+	height: 236rpx;
+	border-bottom: 1rpx solid #181C30;
+}
+.userss {
+	height: 148rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.users-list {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.users-list-img {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 40rpx;
+}
+.users-lists-image {
+	float: left;
+	height: 80rpx;
+	line-height: 80rpx;
+	margin-left: 30rpx;
+	margin-top: 45rpx;
+}
+.users-list-title {
+	float: left;
+	line-height: 80rpx;
+	margin-left: 20rpx;
+	margin-top: 45rpx;
+	margin-top: 25rpx;
+	width: 230rpx;
+	color: #FFFFFF;
+	font-size: 38rpx;
+	white-space: nowrap;
+	/*设置不换行*/
+	overflow: hidden;
+	/*设置隐藏*/
+	text-overflow: ellipsis;
+	/*设置隐藏部分为省略号*/
+}
+.starbox {
+	margin-left: 125rpx;
+}
+.star {
+	width: 30rpx;
+	height: 30rpx;
+}
+.users-list-right {
+	height: 74rpx;
+	margin-left: 50rpx;
+}
+.userinfo {
+	height: 88rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.userinfo-list {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.userinfo-list-left {
+	height: 88rpx;
+	width: 235rpx;
+	line-height: 88rpx;
+	float: left;
+	color: #607096;
+	font-size: 24rpx;
+	margin-left: 30rpx;
+	white-space: nowrap;
+	/*设置不换行*/
+	overflow: hidden;
+	/*设置隐藏*/
+	text-overflow: ellipsis;
+	/*设置隐藏部分为省略号*/
+}
+.userinfo-list-left1 {
+	height: 88rpx;
+	width: 240rpx;
+	line-height: 88rpx;
+	float: left;
+	color: #607096;
+	font-size: 24rpx;
+	margin-left: 23rpx;
+	white-space: nowrap;
+	/*设置不换行*/
+	overflow: hidden;
+	/*设置隐藏*/
+	text-overflow: ellipsis;
+	/*设置隐藏部分为省略号*/
+}
+.userinfo-list-title {
+	color: #607096;
+	font-size: 24rpx;
+	margin-left: 30rpx;
+}
+.userinfo-list-copy {
+	width: 86rpx;
+	height: 44rpx;
+	line-height: 44rpx;
+	float: left;
+	font-size: 22rpx;
+	text-align: center;
+	background: -webkit-linear-gradient(right, rgba(255, 229, 171, 1) 0%, rgba(240, 202, 140, 1) 100%);
+	background: linear-gradient(270deg, rgba(255, 229, 171, 1) 0%, rgba(240, 202, 140, 1) 100%);
+	border-radius: 4rpx;
+	margin-top: 20rpx;
+	margin-left: 10rpx;
+	color: #7E5314;
+}
+.userinfo-list-copy2 {
+	width: 86rpx;
+	height: 44rpx;
+	line-height: 44rpx;
+	float: left;
+	font-size: 22rpx;
+	text-align: center;
+	border: 2rpx solid #FFFFFF;
+	color: #FFFFFF;
+	border-radius: 4rpx;
+	margin-top: 20rpx;
+}
+.lines {
+	height: 60rpx;
+	border-right: 1px solid #232837;
+	margin-left: 35rpx;
+	margin-top: 10rpx;
+}
+.bottom {
+	margin-top: 250rpx;
+	min-height: 300rpx;
+}
+.bottom-button {
+	width: 260rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	margin-left: 245rpx;
+	margin-right: 245rpx;
+	background: rgba(31, 38, 53, 1);
+	border-radius: 40rpx;
+}
+.bottom-button-image {
+	width: 38rpx;
+	height: 38rpx;
+}
+.bottom-button-title {
+	color: #F9F9F9;
+	font-size: 28rpx;
+}
+.bottom-title {
+	margin-top: 50rpx;
+	text-align: center;
+}
+.bottom-content {
+	margin-top: 20rpx;
+	text-align: center;
+}
+.bottom-content-text {
+	font-size: 30rpx;
+	color: #5C636D;
+}
+.bottom-title-text {
+	font-size: 24rpx;
+	color: #6B737A;
+}
+.prices {
+	color: #FFFFFF;
+	font-size: 34rpx;
+	margin-left: 20rpx;
+	text-align: right;
+	float: left;
+	text-align: right;
+	width: 160rpx;
+	height: 41rpx;
+	line-height: 41rpx;
+}
+.pricesname {
+	color: #607096;
+	font-size: 24rpx;
+	margin-left: 30rpx;
+	float: left;
+	height: 41rpx;
+	line-height: 41rpx;
+}
+

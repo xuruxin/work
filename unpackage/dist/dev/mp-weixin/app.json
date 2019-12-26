@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/test",
+        "pages/goods/index",
+        "pages/jiesuan/jiesuan",
+        "pages/address/address",
+        "pages/address/add_address/add_address",
+        "pages/payment/payment",
+        "pages/jointeam/jointeam",
+        "pages/record/index",
+        "pages/jointeam/join_full",
+        "pages/user/index",
+        "pages/record/pinrecord",
+        "pages/user/orders/orders",
+        "pages/user/pinglun/pinglun",
+        "pages/user/pinglun/addpinglun",
+        "pages/user/orders/order_xq",
+        "pages/redbag/redbag",
+        "pages/redbag/index",
+        "pages/jointeam/jointeam_redbag"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTitleText": "拼团夺宝",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "selectedColor": "#FD5450",
+        "color": "#90909D",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/static/tab-bar_slices/home_off.png",
+                "selectedIconPath": "/static/tab-bar_slices/home_on.png"
+            },
+            {
+                "pagePath": "pages/record/index",
+                "text": "拼团记录",
+                "iconPath": "/static/tab-bar_slices/record_off.png",
+                "selectedIconPath": "/static/tab-bar_slices/record_on.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "iconPath": "/static/tab-bar_slices/me_off.png",
+                "selectedIconPath": "/static/tab-bar_slices/me_on.png"
+            }
+        ]
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wx6885acbedba59c14"
+    ],
+    "usingComponents": {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap85.json"
+}

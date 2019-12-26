@@ -1,0 +1,246 @@
+
+page {
+	background: #f5f5f5;
+	font-size: 30rpx;
+}
+.box1 {
+	height: 120rpx;
+	width: 100%;
+}
+.box1 .msg {
+	position: absolute;
+	color: #de3c43;
+	font-weight: 600;
+	font-size: 28rpx;
+	height: 120rpx;
+	line-height: 120rpx;
+	margin-left: 100rpx;
+}
+.box1 image {
+	width: 100%;
+	height: 120rpx;
+}
+.box1 .ordericon {
+	width: 60rpx;
+	height: 60rpx;
+	position: absolute;
+	margin-left: 30rpx;
+	margin-top: 30rpx;
+}
+.whitebg {
+	background: #fff;
+}
+.choose_add_over {
+	height: 180rpx;
+}
+.choose_add_over view {
+	margin-left: 30rpx;
+	width: 660rpx;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.choose_add_over .addicon {
+	position: absolute;
+	border: 1px solid #f2223b;
+	color: #f2223b;
+	border-radius: 6rpx;
+	width: 100rpx;
+	height: 30rpx;
+	text-align: center;
+	line-height: 30rpx;
+	font-size: 22rpx;
+	margin-top: 30rpx;
+}
+.choose_add_over .add {
+	margin-left: 150rpx;
+	width: 540rpx;
+	margin-top: 30rpx;
+	display: inline-block;
+	font-size: 25rpx;
+}
+.choose_add_over .addpeople {
+	height: 40rpx;
+	line-height: 40rpx;
+	color: #222;
+	font-size: 25rpx;
+}
+.choose_add_over .addxq {
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.box2 {
+	width: 100%;
+}
+.box2 .jiantou_icon {
+	width: 30rpx;
+	height: 30rpx;
+	position: absolute;
+	right: 35rpx;
+	margin-top: 75rpx;
+}
+.box2 view {
+	margin-left: 30rpx;
+	width: 600rpx;
+}
+.box2 .kuaidi {
+	color: #5b8edb;
+	font-size: 30rpx;
+	padding-top: 40rpx;
+}
+.box2 .times {
+	font-size: 27rpx;
+	color: #999;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.lists .goods {
+	margin-top: 2rpx;
+	background: #fff;
+	height: 200rpx;
+}
+.lists image {
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 9rpx;
+	margin: 20rpx;
+}
+.lists .goodsmsg {
+	position: absolute;
+	margin-left: 200rpx;
+	margin-top: 30rpx;
+}
+.lists .buynum {
+	position: absolute;
+	right: 30rpx;
+	margin-top: 130rpx;
+	color: #999;
+}
+.lists .goods .goodstyps {
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 25rpx;
+	color: #999;
+}
+.lists .goods .goodsmoney {
+	height: 40rpx;
+	line-height: 40rpx;
+	font-weight: 600;
+	color: #de3c43;
+}
+.lists .order {
+	background: #fff;
+	font-size: 28rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	padding-left: 30rpx;
+	margin-top: 20rpx;
+}
+.lists .order .order_status {
+	position: absolute;
+	right: 30rpx;
+	color: #FD5450;
+	font-weight: 500;
+}
+.box3 {
+	margin-top: 2rpx;
+	height: 90rpx;
+}
+.box3 view {
+	height: 90rpx;
+	line-height: 90rpx;
+	margin-left: 30rpx;
+}
+.box3 .xiaoji {
+	position: absolute;
+	text-align: right;
+	right: 30rpx;
+	font-size: 28rpx;
+}
+.box3 .xiaoji text {
+	color: #999;
+	margin-right: 10rpx;
+}
+.box3 .cu {
+	color: #999;
+}
+.box4 {
+	text-align: right;
+	padding-right: 30rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	margin-top: 2rpx;
+}
+.btns {
+	background: #fff;
+	height: 120rpx;
+	line-height: 120rpx;
+	margin-top: 2rpx;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	-webkit-box-shadow: 0 0 20rpx #ddd;
+	        box-shadow: 0 0 20rpx #ddd;
+}
+.btns .gray {
+	border: 1px solid #ddd !important;
+	color: #444 !important;
+}
+.btns .grays {
+	border: 1px solid #eee !important;
+	color: #aaa !important;
+}
+.btns .btn {
+	float: right;
+	margin-right: 30rpx !important;
+	border: 1px solid #de3c43;
+	color: #de3c43;
+	border-radius: 8rpx;
+	width: 160rpx;
+	height: 60rpx;
+	text-align: center;
+	line-height: 60rpx;
+	font-size: 25rpx;
+	margin-top: 30rpx !important;
+}
+.box5 {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.box5 .yunfei {
+	color: #999;
+}
+.box5 .shiji text {
+	color: #de3c43;
+	font-weight: 500;
+}
+.box5 .shiji .money_icon {
+	font-size: 20rpx;
+}
+.box5 .shiji .money {
+	font-size: 40rpx;
+}
+.box5 .paytype image {
+	width: 40rpx;
+	height: 35rpx;
+	position: relative;
+	top: 6rpx;
+	margin-left: 15rpx;
+}
+.box6 {
+	margin-top: 20rpx;
+}
+.box7 {
+	width: 100%;
+	padding: 20rpx 0;
+	margin-top: 30rpx;
+}
+.box7 view {
+	margin-left: 30rpx;
+	color: #999;
+	font-size: 25rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+

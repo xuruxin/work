@@ -1,0 +1,125 @@
+
+page {
+	background: #FFFFFF;
+}
+.seemore {
+	width: 670rpx;
+	height: 98rpx;
+	line-height: 98rpx;
+	background: rgba(253, 84, 80, 1);
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	margin-top: 150rpx;
+}
+._title .more {
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(107, 115, 122, 1);
+}
+._title .more .txt {
+	width: 550rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: right;
+}
+._title .more .shape {
+	margin-top: 28rpx;
+}
+._title .more .shape,
+._title .more .txt {
+	float: left;
+}
+._title .title {
+	color: rgba(134, 139, 154, 1);
+}
+.bigtitle {
+	font-size: 52rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(253, 84, 80, 1);
+	text-align: center;
+	margin-top: 80rpx;
+}
+.tip {
+	text-align: center;
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(107, 115, 122, 1);
+	margin-top: 60rpx;
+}
+.team .title {
+	height: 118rpx;
+	line-height: 118rpx;
+	font-size: 38rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(42, 48, 60, 1);
+	text-align: center;
+}
+.team .list {
+	height: 108rpx;
+	line-height: 108rpx;
+	width: 100%;
+}
+.team .list image {
+	width: 52rpx;
+	height: 52rpx;
+	border-radius: 50%;
+	margin: 28rpx 30rpx;
+}
+.team .list .nickname {
+	position: absolute;
+	margin-left: 92rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(42, 48, 60, 1);
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 200rpx;
+}
+.team .right {
+	position: absolute;
+	right: 30rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(253, 84, 80, 1);
+}
+.team .right_two {
+	margin-top: 14rpx;
+	text-align: right;
+}
+.team .right view {
+	height: 40rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(253, 84, 80, 1);
+	line-height: 40rpx;
+}
+.team .active {
+	background: rgba(255, 242, 242, 1);
+}
+.team .line {
+	width: 700rpx;
+	height: 1rpx;
+	background: rgba(245, 245, 245, 1);
+	margin-left: 25rpx;
+}
+.team .group {
+	margin-left: 335rpx;
+	margin-top: 30rpx;
+	position: relative;
+	z-index: 13;
+}
+

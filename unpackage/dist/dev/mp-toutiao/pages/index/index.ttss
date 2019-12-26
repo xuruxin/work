@@ -1,0 +1,234 @@
+
+page {
+	background: #FFFFFF;
+	font-family: DIN-Medium, DIN;
+}
+.hb_daojishi{
+	width:268rpx;
+	height:98rpx;
+	background:rgba(253,84,80,1);
+	box-shadow:0rpx 4rpx 18rpx 0rpx rgba(237,0,43,0.5);
+	border-radius:0rpx 100rpx 100rpx 0rpx;
+	position: fixed;
+	bottom: 100rpx;
+}
+.hb_daojishi image{
+	width: 209rpx;
+	height: 40rpx;
+	position: absolute;
+	left: 10%;
+	top: 10rpx;
+}
+.hb_daojishi_body{
+	width: 180rpx;
+	height: 32rpx; 
+	position: absolute;
+	left: 30rpx;
+	bottom: 15rpx;
+	color: #fff;
+}
+.hb_daojishi_body view{
+	width:41rpx;
+	height:29rpx;
+	background:rgba(255,255,255,1);
+	border-radius:4rpx;
+	display: inline-block;
+	text-align: center;
+	line-height: 29rpx;
+	color: #FD5450;
+	font-family:DIN-Medium;
+}
+.showHhBox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background: rgba(0,0,0,0.7);
+}
+.hbbody{
+	width: 600rpx;
+	height: 750rpx; 
+	position: fixed;
+	top: 25%;
+	left: 75rpx;
+	z-index: 11;
+}
+.hbbody .hbimg{
+	width: 100%;
+}
+.hbbody .hbbutton{
+	width: 442rpx;
+	height: 88rpx;
+	position: absolute;
+	bottom: 61rpx;
+	left: 79rpx;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.hbbody icon{
+	position: absolute;
+	right: -40rpx;
+	top: -80rpx;
+}
+.hbbutton::after {
+	border: 0;
+	border-radius: 0;
+}
+.hbbutton image{
+	width: 100%;
+	height: 100%;
+}
+.topbox {
+	background: #FD5450;
+	border-radius: 0rpx 0rpx 32rpx 32rpx;
+	text-align: center;
+	padding-bottom: 124rpx;
+}
+.topbox .shuomingBtn {
+	width: 690rpx;
+	height: 100rpx;
+	position: absolute;
+	z-index: 8;
+	margin-left: 30rpx;
+	margin-top: 186rpx;
+}
+.topbox .videoBtn {
+	width: 104rpx;
+	height: 102rpx;
+	position: absolute;
+	right: 28rpx;
+	margin-top: 182rpx;
+	z-index: 9;
+}
+.topbox .shuomingtitle {
+	width: 692rpx;
+	height: 276rpx;
+	margin-top: 10rpx;
+}
+.topbox .searchicon {
+	position: absolute;
+	width: 27rpx;
+	height: 29rpx;
+	right: 80rpx;
+	margin-top: 30rpx;
+}
+.topbox .searchinput {
+	width: 690rpx;
+	height: 88rpx;
+	border-radius: 44px;
+	opacity: 0.90;
+	background: #FFFFFF;
+	text-align: left;
+	margin-left: 30rpx;
+	padding: 0 100rpx 0 40rpx;
+	margin-top: 40rpx;
+}
+.topbox .searchinput input {
+	height: 88rpx;
+}
+.topbox .tips {
+	width: 680rpx;
+	margin-left: 35rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	position: absolute;
+	margin-top: 40rpx;
+}
+.topbox .tips view {
+	display: inline-block;
+	font-size: 24rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.topbox .tips>view:first-child {
+	text-align: left;
+	margin-left: 20rpx;
+}
+.topbox .tips>view:nth-child(3) {
+	text-align: right;
+	right: 0;
+}
+/* 分类样式 */
+.cat_goodstypes {
+	padding-top: 0rpx;
+	padding-bottom: 0rpx;
+	width: 750rpx;
+	white-space: nowrap;
+	overflow: auto;
+	height: 88rpx;
+	z-index: 990;
+	box-sizing: border-box;
+	line-height: 88rpx;
+	border-bottom: 1rpx solid rgba(245, 245, 245, 1);
+	margin-top: 10rpx;
+}
+.cat_goodstypes .cat_active {
+	font-size: 36rpx;
+	font-weight: 500;
+	color: rgba(253, 84, 80, 1);
+	text-align: center;
+}
+.cat_goodstype {
+	padding: 0 21rpx;
+	display: inline-block;
+	line-height: 45rpx;
+	text-align: center;
+	font-size: 30rpx;
+	font-family: PingFangSC-Medium;
+	font-weight: 500;
+	color: rgba(253, 84, 80, 1);
+}
+.cat_goodstype .cat_red {
+	width: 24rpx;
+	height: 6rpx;
+	background: #FD5450;
+	border-radius: 3px;
+	margin: auto;
+}
+/* 分类样式 */
+/* 玩法说明引导 */
+.shuomingpic {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	bottom: 0;
+	height: 100%;
+	background: #FD5450;
+}
+.shuomingpic image {
+	margin-top: ;
+	position: absolute;
+	width: 94%;
+	margin-left: 3%;
+}
+.shuomingpic .closeShuoming {
+	position: absolute;
+	height: 100rpx;
+	width: 80%;
+	margin-left: 10%;
+	z-index: 11;
+	margin-top: 1240rpx;
+}
+/* 玩法说明引导 */
+/* 底部引导图 */
+.bottombanner{
+	width: 100%;
+	height: 76rpx;
+	position: fixed !important;
+	bottom: 0rpx;
+}
+.bottombanner image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 底部引导图 */
+

@@ -1,0 +1,78 @@
+
+page {
+	background: #f5f5f5;
+}
+.lists {
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 30rpx;
+	margin-bottom: 2rpx;
+	background: #fff;
+}
+.lists input,
+textarea {
+	height: 100rpx;
+	line-height: 100rpx;
+	margin: 0 30rpx;
+}
+picker {
+	padding: 0 30rpx;
+}
+.choose {
+	position: absolute;
+	right: 30rpx;
+	color: #999;
+}
+.choose image {
+	width: 30rpx;
+	height: 30rpx;
+	position: relative;
+	top: 5rpx;
+}
+.szdq {
+	color: #666;
+}
+.textarea {
+	height: 130rpx;
+	border: 1px solid #fff;
+	font-size: 28rpx;
+}
+textarea {
+	width: 690rpx;
+	margin-top: 15rpx;
+	line-height: 35rpx;
+}
+switch {
+	position: absolute;
+	right: 30rpx;
+}
+.moren {
+	margin-top: 20rpx
+}
+.moren view {
+	margin-left: 30rpx;
+}
+.bottom {
+	height: 120rpx;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.bottom button {
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 90%;
+	margin-top: 20rpx;
+	font-size: 30rpx;
+	color: #fff;
+	background: #f2223b;
+	border-radius: 20rpx;
+}
+.bottom button::after {
+	border: none;
+}
+.deladdress {
+	color: #f2223b;
+}
+

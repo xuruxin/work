@@ -1,0 +1,1 @@
+<view><view class="logo"><image src="../../static/lovehua.png" alt="恋爱话术"></image></view><view class="import"><text>{{''+imports+''}}</text></view><view class="input_box"><input class="Input" type="text" placeholder="请输入激活码" placeholder-style="color:white"/></view><view class="button"><text>{{btn}}</text></view></view>

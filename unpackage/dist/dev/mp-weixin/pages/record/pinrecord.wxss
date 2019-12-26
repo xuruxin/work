@@ -1,0 +1,84 @@
+
+.times{
+	height: 88rpx;
+	width: 690rpx;
+	margin-left: 30rpx;
+	line-height: 88rpx;
+	font-size:28rpx;
+	font-family:DIN-Regular,DIN;
+	font-weight:400;
+	color:rgba(51,51,61,1);
+}
+/* 往期拼团记录 */
+.whitebox{
+	width: 100%;
+	height: 388rpx;
+	border-radius: 16rpx;
+	background: #FFFFFF;
+	position: relative;
+	z-index: 13;
+	/* border:1px solid red; */
+}
+.whitebox .list{
+	height: 98rpx;
+	line-height: 98rpx;
+	width: 100%;
+}
+.whitebox .list image{
+	width: 52rpx;
+	height: 52rpx;
+	border-radius: 50%;
+	position: relative;
+	top: 14rpx;
+	left: 30rpx;
+}
+.whitebox .list .nickname{
+	position: absolute;
+	margin-left: 92rpx;
+	font-size:28rpx;
+	font-family:PingFangSC-Medium,PingFangSC;
+	font-weight:500;
+	color:rgba(42,48,60,1);
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 200rpx;
+}
+.whitebox .right{
+	position: absolute;
+	right: 30rpx;
+	font-size:28rpx;
+	font-family:PingFangSC-Medium,PingFangSC;
+	font-weight:500;
+	color:rgba(253,84,80,1);
+}
+.whitebox .right_two{
+	margin-top: 10rpx;
+	text-align: right;
+}
+.whitebox .right view{
+	height:40rpx;
+	font-size:28rpx;
+	font-family:PingFangSC-Medium,PingFangSC;
+	font-weight:500;
+	color:rgba(253,84,80,1);
+	line-height:40rpx;
+}
+.whitebox .active{
+	background:rgba(255,242,242,1);
+}
+.whitebox .line{
+	width:550rpx;
+	height:1rpx;
+	background:rgba(245,245,245,1);
+	margin-left: 25rpx;
+}
+.whitebox .group{
+	margin-left: 335rpx;
+	margin-top: 30rpx;
+	position: relative;
+	z-index: 13;
+}
+/* 往期拼团记录 */
+

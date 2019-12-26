@@ -1,0 +1,54 @@
+
+page {
+	background: rgba(255, 75, 102, 1);
+}
+.logo {
+	width: 100%;
+	height: 56rpx;
+	margin-top: 275rpx;
+	text-align: center;
+}
+.logo image {
+	width: 352rpx;
+	height: 86rpx;
+}
+.import {
+	width: 100%;
+	height: 33rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: rgba(249, 249, 249, 1);
+	line-height: 33rpx;
+	letter-spacing: 8rpx;
+	margin-top: 44rpx;
+	text-align: center;
+}
+.input_box {
+	width: 600rpx;
+	height: 70rpx;
+	margin: 160rpx auto 0rpx;
+}
+.Input {
+	width: 600rpx;
+	height: 70rpx;
+	color: white;
+	border-bottom: 1px solid white;
+	font-size:30rpx;
+	font-family:PingFangSC-Semibold,PingFang SC;
+	font-weight:600;
+}
+.button{
+	width:600rpx;
+	height:98rpx;
+	background:rgba(249,249,249,1);
+	border-radius:49rpx;
+	margin: 120rpx auto 0;
+	text-align: center;
+	line-height: 98rpx;
+	font-size:32rpx;
+	font-family:PingFangSC-Semibold,PingFang SC;
+	font-weight:600;
+	color:rgba(255,75,102,1);
+}
+

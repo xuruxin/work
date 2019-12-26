@@ -1,0 +1,71 @@
+{
+	"setting": {
+		"es6": true,
+		"postcss": true,
+		"minified": true
+	},
+	"appid": "tt740202bfeb28ac21",
+	"projectname": "三人拼团",
+	"condition": {
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": 0,
+					"name": "buy",
+					"pathName": "pages/index/buy",
+					"query": "",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				},
+				{
+					"id": 1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				},
+				{
+					"id": 2,
+					"name": "loveLuodi",
+					"pathName": "pages/index/loveLuodi",
+					"query": "",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				},
+				{
+					"id": 3,
+					"name": "hehuoren",
+					"pathName": "pages/index/hehuoren",
+					"query": "",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				},
+				{
+					"id": 4,
+					"name": "data",
+					"pathName": "pages/index/data",
+					"query": "",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/data",
+    "pages/index/hehuoren",
+    "pages/index/index",
+    "pages/index/buy",
+    "pages/index/loveLuodi",
+    "pages/index/activation"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "恋爱话术",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

@@ -1,0 +1,203 @@
+
+page {
+	background: #FFFFFF;
+}
+.topbox {
+	background: #FD5450;
+}
+.msg1,
+.msg2,
+.msg3 {
+	width: 100%;
+	text-align: center;
+}
+.msg1 {
+	height: 52rpx;
+	font-size: 52rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 52rpx;
+	padding-top: 60rpx;
+}
+.msg1 text {
+	font-size: 58rpx;
+	color: #FFF100;
+}
+.msg2 {
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFangSC;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 28rpx;
+	margin-top: 80rpx;
+}
+.msg3 {
+	height: 28rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFangSC;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 28rpx;
+	margin-top: 20rpx;
+}
+.msg3 text {
+	background: #FFF100;
+	color: #FD5450;
+	padding: 2rpx 6rpx;
+	margin: 0 10rpx;
+	border-radius: 6rpx;
+}
+.sharebtn {
+	width: 678rpx;
+	margin-left: 36rpx !important;
+	height: 112rpx;
+	margin-top: 484rpx !important;
+	position: absolute;
+	z-index: 9;
+	background: none;
+}
+.sharebtn image {
+	width: 100%;
+	height: 100%;
+}
+.redbagsharebg {
+	width: 100%;
+	margin-top: 68rpx;
+}
+.grayline {
+	width: 750rpx;
+	height: 20rpx;
+	background: rgba(0, 0, 0, 0.02);
+	margin-top: 40rpx;
+}
+.avatarBox {
+	text-align: center;
+	margin-top: 58rpx;
+}
+.avatarBox .avatar {
+	width: 112rpx;
+	height: 112rpx;
+	display: inline-block;
+	text-align: center;
+	margin: 0 29rpx;
+}
+.avatarBox .noavatar {
+	border: none !important;
+}
+.avatarBox .avatar .txt {
+	width: 72rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+	background: #FBED00;
+	border-radius: 16px;
+	position: absolute;
+	margin-top: -20rpx;
+	font-size: 22rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: #FD5450;
+	margin-left: 20rpx;
+}
+.avatarBox .avatar image {
+	width: 112rpx;
+	height: 112rpx;
+	border-radius: 50%;
+	border: 3rpx solid rgba(253, 84, 80, 1);
+}
+._title {
+	height: 98rpx;
+	line-height: 98rpx;
+}
+._title .more {
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(107, 115, 122, 1);
+}
+._title .more .txt {
+	width: 550rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: right;
+}
+._title .more .shape {
+	margin-top: 28rpx;
+}
+._title .more .shape,
+._title .more .txt {
+	float: left;
+}
+._title .title {
+	color: rgba(134, 139, 154, 1);
+}
+
+/* 红包 */
+.redbag {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 10;
+}
+.redbag .closebg {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 11;
+	position: fixed;
+}
+.redbag .msgbox {
+	position: absolute;
+	z-index: 11;
+	width: 100%;
+	text-align: center;
+	margin-top: 342rpx;
+}
+.redbag .msgbox .logo {
+	width: 80rpx;
+	height: 80rpx;
+	border: 4rpx solid rgba(255, 255, 255, 1);
+	border-radius: 50%;
+}
+.redbag .msgbox .tip1 {
+	height: 32rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 226, 179, 1);
+	line-height: 32rpx;
+	margin-top: 30rpx;
+}
+.redbag .msgbox .tip2 {
+	height: 38rpx;
+	font-size: 38rpx;
+	font-family: PingFangSC-Medium, PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 226, 179, 1);
+	line-height: 38rpx;
+	margin-top: 16rpx;
+}
+.redbag .chaibtn {
+	width: 186rpx;
+	height: 186rpx;
+	position: absolute;
+	margin-left: 282rpx;
+	margin-top: 800rpx;
+	z-index: 11;
+}
+.redbag .redbagbg {
+	width: 574rpx;
+	height: 910rpx;
+	margin-left: 88rpx;
+	margin-top: 244rpx;
+}
+
+/* 红包 */
+
